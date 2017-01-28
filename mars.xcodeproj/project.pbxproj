@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		025962EF1D3308A90052DDA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 025962EE1D3308A90052DDA0 /* main.m */; };
+		025962F21D3308A90052DDA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 025962F11D3308A90052DDA0 /* AppDelegate.m */; };
+		025962F51D3308A90052DDA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025962F41D3308A90052DDA0 /* ViewController.m */; };
+		025962F81D3308A90052DDA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 025962F61D3308A90052DDA0 /* Main.storyboard */; };
+		025962FA1D3308A90052DDA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 025962F91D3308A90052DDA0 /* Assets.xcassets */; };
+		025962FD1D3308A90052DDA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 025962FB1D3308A90052DDA0 /* LaunchScreen.storyboard */; };
+		025963081D3308A90052DDA0 /* marsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 025963071D3308A90052DDA0 /* marsTests.m */; };
+		025963131D3308A90052DDA0 /* marsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 025963121D3308A90052DDA0 /* marsUITests.m */; };
+		025963231D33091A0052DDA0 /* ImageFX.m in Sources */ = {isa = PBXBuildFile; fileRef = 025963221D33091A0052DDA0 /* ImageFX.m */; };
+		025963261D3309DF0052DDA0 /* DateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 025963251D3309DF0052DDA0 /* DateUtils.m */; };
+		025963301D330ACF0052DDA0 /* 511877792.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 025963281D330ACF0052DDA0 /* 511877792.jpg */; };
+		025963311D330ACF0052DDA0 /* bonneville_crater.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 025963291D330ACF0052DDA0 /* bonneville_crater.jpg */; };
+		025963321D330ACF0052DDA0 /* icon-ios7-arrow-left-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 0259632A1D330ACF0052DDA0 /* icon-ios7-arrow-left-128.png */; };
+		025963331D330ACF0052DDA0 /* icon-ios7-arrow-right-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 0259632B1D330ACF0052DDA0 /* icon-ios7-arrow-right-128.png */; };
+		025963341D330ACF0052DDA0 /* images-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 0259632C1D330ACF0052DDA0 /* images-10.png */; };
+		025963351D330ACF0052DDA0 /* images-11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0259632D1D330ACF0052DDA0 /* images-11.jpeg */; };
+		025963361D330ACF0052DDA0 /* mars.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0259632E1D330ACF0052DDA0 /* mars.jpg */; };
+		0259633B1D330B230052DDA0 /* MarsReportModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0259633A1D330B230052DDA0 /* MarsReportModel.m */; };
+		0259633F1D330B930052DDA0 /* MarsRoverParameterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0259633E1D330B930052DDA0 /* MarsRoverParameterModel.m */; };
+		025963421D330BC60052DDA0 /* MarsRoverAPIModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 025963411D330BC60052DDA0 /* MarsRoverAPIModel.m */; };
+		025963451D330BF50052DDA0 /* MarsRoverMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 025963441D330BF50052DDA0 /* MarsRoverMetadata.m */; };
+		0259634A1D330C440052DDA0 /* MarsService.m in Sources */ = {isa = PBXBuildFile; fileRef = 025963491D330C440052DDA0 /* MarsService.m */; };
+		0259634E1D330C8C0052DDA0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0259634D1D330C8C0052DDA0 /* FirstViewController.m */; };
+		025963511D330D050052DDA0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025963501D330D050052DDA0 /* SecondViewController.m */; };
+		025963541D330D300052DDA0 /* ImageVisualizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025963531D330D300052DDA0 /* ImageVisualizationViewController.m */; };
+		025963571D330D5D0052DDA0 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025963561D330D5D0052DDA0 /* AboutViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		025963041D3308A90052DDA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 025962E21D3308A90052DDA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 025962E91D3308A90052DDA0;
+			remoteInfo = mars;
+		};
+		0259630F1D3308A90052DDA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 025962E21D3308A90052DDA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 025962E91D3308A90052DDA0;
+			remoteInfo = mars;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		025962EA1D3308A90052DDA0 /* mars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		025962EE1D3308A90052DDA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		025962F01D3308A90052DDA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		025962F11D3308A90052DDA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		025962F31D3308A90052DDA0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		025962F41D3308A90052DDA0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		025962F71D3308A90052DDA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		025962F91D3308A90052DDA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		025962FC1D3308A90052DDA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		025962FE1D3308A90052DDA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		025963031D3308A90052DDA0 /* marsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = marsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		025963071D3308A90052DDA0 /* marsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = marsTests.m; sourceTree = "<group>"; };
+		025963091D3308A90052DDA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0259630E1D3308A90052DDA0 /* marsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = marsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		025963121D3308A90052DDA0 /* marsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = marsUITests.m; sourceTree = "<group>"; };
+		025963141D3308A90052DDA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		025963211D33091A0052DDA0 /* ImageFX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFX.h; sourceTree = "<group>"; };
+		025963221D33091A0052DDA0 /* ImageFX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFX.m; sourceTree = "<group>"; };
+		025963241D3309DF0052DDA0 /* DateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateUtils.h; sourceTree = "<group>"; };
+		025963251D3309DF0052DDA0 /* DateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateUtils.m; sourceTree = "<group>"; };
+		025963281D330ACF0052DDA0 /* 511877792.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 511877792.jpg; sourceTree = "<group>"; };
+		025963291D330ACF0052DDA0 /* bonneville_crater.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bonneville_crater.jpg; sourceTree = "<group>"; };
+		0259632A1D330ACF0052DDA0 /* icon-ios7-arrow-left-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ios7-arrow-left-128.png"; sourceTree = "<group>"; };
+		0259632B1D330ACF0052DDA0 /* icon-ios7-arrow-right-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ios7-arrow-right-128.png"; sourceTree = "<group>"; };
+		0259632C1D330ACF0052DDA0 /* images-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "images-10.png"; sourceTree = "<group>"; };
+		0259632D1D330ACF0052DDA0 /* images-11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-11.jpeg"; sourceTree = "<group>"; };
+		0259632E1D330ACF0052DDA0 /* mars.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mars.jpg; sourceTree = "<group>"; };
+		025963391D330B230052DDA0 /* MarsReportModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarsReportModel.h; sourceTree = "<group>"; };
+		0259633A1D330B230052DDA0 /* MarsReportModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarsReportModel.m; sourceTree = "<group>"; };
+		0259633C1D330B6F0052DDA0 /* modelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = modelProtocol.h; sourceTree = "<group>"; };
+		0259633D1D330B930052DDA0 /* MarsRoverParameterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarsRoverParameterModel.h; sourceTree = "<group>"; };
+		0259633E1D330B930052DDA0 /* MarsRoverParameterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarsRoverParameterModel.m; sourceTree = "<group>"; };
+		025963401D330BC60052DDA0 /* MarsRoverAPIModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarsRoverAPIModel.h; sourceTree = "<group>"; };
+		025963411D330BC60052DDA0 /* MarsRoverAPIModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarsRoverAPIModel.m; sourceTree = "<group>"; };
+		025963431D330BF50052DDA0 /* MarsRoverMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarsRoverMetadata.h; sourceTree = "<group>"; };
+		025963441D330BF50052DDA0 /* MarsRoverMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarsRoverMetadata.m; sourceTree = "<group>"; };
+		025963481D330C440052DDA0 /* MarsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarsService.h; sourceTree = "<group>"; };
+		025963491D330C440052DDA0 /* MarsService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarsService.m; sourceTree = "<group>"; };
+		0259634C1D330C8C0052DDA0 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		0259634D1D330C8C0052DDA0 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		0259634F1D330D050052DDA0 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		025963501D330D050052DDA0 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		025963521D330D300052DDA0 /* ImageVisualizationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageVisualizationViewController.h; sourceTree = "<group>"; };
+		025963531D330D300052DDA0 /* ImageVisualizationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageVisualizationViewController.m; sourceTree = "<group>"; };
+		025963551D330D5D0052DDA0 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		025963561D330D5D0052DDA0 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		025962E71D3308A90052DDA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025963001D3308A90052DDA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0259630B1D3308A90052DDA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		025962E11D3308A90052DDA0 = {
+			isa = PBXGroup;
+			children = (
+				025962EC1D3308A90052DDA0 /* mars */,
+				025963061D3308A90052DDA0 /* marsTests */,
+				025963111D3308A90052DDA0 /* marsUITests */,
+				025962EB1D3308A90052DDA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		025962EB1D3308A90052DDA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				025962EA1D3308A90052DDA0 /* mars.app */,
+				025963031D3308A90052DDA0 /* marsTests.xctest */,
+				0259630E1D3308A90052DDA0 /* marsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		025962EC1D3308A90052DDA0 /* mars */ = {
+			isa = PBXGroup;
+			children = (
+				0259634B1D330C720052DDA0 /* controllers */,
+				025963461D330C2A0052DDA0 /* service */,
+				025963381D330AE60052DDA0 /* model */,
+				025963271D330A4D0052DDA0 /* img */,
+				025963201D3308C50052DDA0 /* utils */,
+				025962F01D3308A90052DDA0 /* AppDelegate.h */,
+				025962F11D3308A90052DDA0 /* AppDelegate.m */,
+				025962F31D3308A90052DDA0 /* ViewController.h */,
+				025962F41D3308A90052DDA0 /* ViewController.m */,
+				025962F61D3308A90052DDA0 /* Main.storyboard */,
+				025962F91D3308A90052DDA0 /* Assets.xcassets */,
+				025962FB1D3308A90052DDA0 /* LaunchScreen.storyboard */,
+				025962FE1D3308A90052DDA0 /* Info.plist */,
+				025962ED1D3308A90052DDA0 /* Supporting Files */,
+			);
+			path = mars;
+			sourceTree = "<group>";
+		};
+		025962ED1D3308A90052DDA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				025962EE1D3308A90052DDA0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		025963061D3308A90052DDA0 /* marsTests */ = {
+			isa = PBXGroup;
+			children = (
+				025963071D3308A90052DDA0 /* marsTests.m */,
+				025963091D3308A90052DDA0 /* Info.plist */,
+			);
+			path = marsTests;
+			sourceTree = "<group>";
+		};
+		025963111D3308A90052DDA0 /* marsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				025963121D3308A90052DDA0 /* marsUITests.m */,
+				025963141D3308A90052DDA0 /* Info.plist */,
+			);
+			path = marsUITests;
+			sourceTree = "<group>";
+		};
+		025963201D3308C50052DDA0 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				025963211D33091A0052DDA0 /* ImageFX.h */,
+				025963221D33091A0052DDA0 /* ImageFX.m */,
+				025963241D3309DF0052DDA0 /* DateUtils.h */,
+				025963251D3309DF0052DDA0 /* DateUtils.m */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		025963271D330A4D0052DDA0 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				025963281D330ACF0052DDA0 /* 511877792.jpg */,
+				025963291D330ACF0052DDA0 /* bonneville_crater.jpg */,
+				0259632A1D330ACF0052DDA0 /* icon-ios7-arrow-left-128.png */,
+				0259632B1D330ACF0052DDA0 /* icon-ios7-arrow-right-128.png */,
+				0259632C1D330ACF0052DDA0 /* images-10.png */,
+				0259632D1D330ACF0052DDA0 /* images-11.jpeg */,
+				0259632E1D330ACF0052DDA0 /* mars.jpg */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+		025963381D330AE60052DDA0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				025963391D330B230052DDA0 /* MarsReportModel.h */,
+				0259633A1D330B230052DDA0 /* MarsReportModel.m */,
+				0259633C1D330B6F0052DDA0 /* modelProtocol.h */,
+				0259633D1D330B930052DDA0 /* MarsRoverParameterModel.h */,
+				0259633E1D330B930052DDA0 /* MarsRoverParameterModel.m */,
+				025963401D330BC60052DDA0 /* MarsRoverAPIModel.h */,
+				025963411D330BC60052DDA0 /* MarsRoverAPIModel.m */,
+				025963431D330BF50052DDA0 /* MarsRoverMetadata.h */,
+				025963441D330BF50052DDA0 /* MarsRoverMetadata.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		025963461D330C2A0052DDA0 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				025963481D330C440052DDA0 /* MarsService.h */,
+				025963491D330C440052DDA0 /* MarsService.m */,
+			);
+			name = service;
+			sourceTree = "<group>";
+		};
+		0259634B1D330C720052DDA0 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0259634C1D330C8C0052DDA0 /* FirstViewController.h */,
+				0259634D1D330C8C0052DDA0 /* FirstViewController.m */,
+				0259634F1D330D050052DDA0 /* SecondViewController.h */,
+				025963501D330D050052DDA0 /* SecondViewController.m */,
+				025963521D330D300052DDA0 /* ImageVisualizationViewController.h */,
+				025963531D330D300052DDA0 /* ImageVisualizationViewController.m */,
+				025963551D330D5D0052DDA0 /* AboutViewController.h */,
+				025963561D330D5D0052DDA0 /* AboutViewController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		025962E91D3308A90052DDA0 /* mars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025963171D3308A90052DDA0 /* Build configuration list for PBXNativeTarget "mars" */;
+			buildPhases = (
+				025962E61D3308A90052DDA0 /* Sources */,
+				025962E71D3308A90052DDA0 /* Frameworks */,
+				025962E81D3308A90052DDA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mars;
+			productName = mars;
+			productReference = 025962EA1D3308A90052DDA0 /* mars.app */;
+			productType = "com.apple.product-type.application";
+		};
+		025963021D3308A90052DDA0 /* marsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0259631A1D3308A90052DDA0 /* Build configuration list for PBXNativeTarget "marsTests" */;
+			buildPhases = (
+				025962FF1D3308A90052DDA0 /* Sources */,
+				025963001D3308A90052DDA0 /* Frameworks */,
+				025963011D3308A90052DDA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				025963051D3308A90052DDA0 /* PBXTargetDependency */,
+			);
+			name = marsTests;
+			productName = marsTests;
+			productReference = 025963031D3308A90052DDA0 /* marsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0259630D1D3308A90052DDA0 /* marsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0259631D1D3308A90052DDA0 /* Build configuration list for PBXNativeTarget "marsUITests" */;
+			buildPhases = (
+				0259630A1D3308A90052DDA0 /* Sources */,
+				0259630B1D3308A90052DDA0 /* Frameworks */,
+				0259630C1D3308A90052DDA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				025963101D3308A90052DDA0 /* PBXTargetDependency */,
+			);
+			name = marsUITests;
+			productName = marsUITests;
+			productReference = 0259630E1D3308A90052DDA0 /* marsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		025962E21D3308A90052DDA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = onarion;
+				TargetAttributes = {
+					025962E91D3308A90052DDA0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					025963021D3308A90052DDA0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 025962E91D3308A90052DDA0;
+					};
+					0259630D1D3308A90052DDA0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 025962E91D3308A90052DDA0;
+					};
+				};
+			};
+			buildConfigurationList = 025962E51D3308A90052DDA0 /* Build configuration list for PBXProject "mars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 025962E11D3308A90052DDA0;
+			productRefGroup = 025962EB1D3308A90052DDA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				025962E91D3308A90052DDA0 /* mars */,
+				025963021D3308A90052DDA0 /* marsTests */,
+				0259630D1D3308A90052DDA0 /* marsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		025962E81D3308A90052DDA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025963351D330ACF0052DDA0 /* images-11.jpeg in Resources */,
+				025962FD1D3308A90052DDA0 /* LaunchScreen.storyboard in Resources */,
+				025962FA1D3308A90052DDA0 /* Assets.xcassets in Resources */,
+				025963311D330ACF0052DDA0 /* bonneville_crater.jpg in Resources */,
+				025963321D330ACF0052DDA0 /* icon-ios7-arrow-left-128.png in Resources */,
+				025963341D330ACF0052DDA0 /* images-10.png in Resources */,
+				025963361D330ACF0052DDA0 /* mars.jpg in Resources */,
+				025962F81D3308A90052DDA0 /* Main.storyboard in Resources */,
+				025963301D330ACF0052DDA0 /* 511877792.jpg in Resources */,
+				025963331D330ACF0052DDA0 /* icon-ios7-arrow-right-128.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025963011D3308A90052DDA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0259630C1D3308A90052DDA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		025962E61D3308A90052DDA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025963511D330D050052DDA0 /* SecondViewController.m in Sources */,
+				0259634E1D330C8C0052DDA0 /* FirstViewController.m in Sources */,
+				025963451D330BF50052DDA0 /* MarsRoverMetadata.m in Sources */,
+				025962F51D3308A90052DDA0 /* ViewController.m in Sources */,
+				025963231D33091A0052DDA0 /* ImageFX.m in Sources */,
+				025963421D330BC60052DDA0 /* MarsRoverAPIModel.m in Sources */,
+				0259634A1D330C440052DDA0 /* MarsService.m in Sources */,
+				0259633B1D330B230052DDA0 /* MarsReportModel.m in Sources */,
+				025962F21D3308A90052DDA0 /* AppDelegate.m in Sources */,
+				025962EF1D3308A90052DDA0 /* main.m in Sources */,
+				025963571D330D5D0052DDA0 /* AboutViewController.m in Sources */,
+				025963261D3309DF0052DDA0 /* DateUtils.m in Sources */,
+				025963541D330D300052DDA0 /* ImageVisualizationViewController.m in Sources */,
+				0259633F1D330B930052DDA0 /* MarsRoverParameterModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025962FF1D3308A90052DDA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025963081D3308A90052DDA0 /* marsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0259630A1D3308A90052DDA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025963131D3308A90052DDA0 /* marsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		025963051D3308A90052DDA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 025962E91D3308A90052DDA0 /* mars */;
+			targetProxy = 025963041D3308A90052DDA0 /* PBXContainerItemProxy */;
+		};
+		025963101D3308A90052DDA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 025962E91D3308A90052DDA0 /* mars */;
+			targetProxy = 0259630F1D3308A90052DDA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		025962F61D3308A90052DDA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				025962F71D3308A90052DDA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		025962FB1D3308A90052DDA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				025962FC1D3308A90052DDA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		025963151D3308A90052DDA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		025963161D3308A90052DDA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		025963181D3308A90052DDA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = mars/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.galactic.mars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		025963191D3308A90052DDA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = mars/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.galactic.mars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0259631B1D3308A90052DDA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = marsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onarion.marsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mars.app/mars";
+			};
+			name = Debug;
+		};
+		0259631C1D3308A90052DDA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = marsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onarion.marsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mars.app/mars";
+			};
+			name = Release;
+		};
+		0259631E1D3308A90052DDA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = marsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onarion.marsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = mars;
+			};
+			name = Debug;
+		};
+		0259631F1D3308A90052DDA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = marsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onarion.marsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = mars;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		025962E51D3308A90052DDA0 /* Build configuration list for PBXProject "mars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025963151D3308A90052DDA0 /* Debug */,
+				025963161D3308A90052DDA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		025963171D3308A90052DDA0 /* Build configuration list for PBXNativeTarget "mars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025963181D3308A90052DDA0 /* Debug */,
+				025963191D3308A90052DDA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0259631A1D3308A90052DDA0 /* Build configuration list for PBXNativeTarget "marsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0259631B1D3308A90052DDA0 /* Debug */,
+				0259631C1D3308A90052DDA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0259631D1D3308A90052DDA0 /* Build configuration list for PBXNativeTarget "marsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0259631E1D3308A90052DDA0 /* Debug */,
+				0259631F1D3308A90052DDA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 025962E21D3308A90052DDA0 /* Project object */;
+}
