@@ -86,6 +86,11 @@
     
     [[MarsService sharedInstance] getMarsRoversPhotosForAllCamerasWIthParameters:@[parameter] CompletionHandler:^(NSDictionary *json, NSError *error) {
         self.roverModel = [[MarsRoverAPIModel alloc] initWithJsonData:json];
+        if (self.roverModel.imagesMetadatas.count == 0){
+            [self.mainViewActivityIndicator stopAnimating];
+            [self.imagesCollection reloadData];
+            return;
+        }
         NSString *urlAsString = ((MarsRoverMetadata *)self.roverModel.imagesMetadatas[0]).imageURL;
         [self downloadImageWithURL:urlAsString CompletionHandler:^(NSData *data) {
             //self.backgroundImage.image = [[UIImage imageWithData:data] applyDarkEffect];
